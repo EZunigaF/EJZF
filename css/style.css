@@ -10,13 +10,30 @@ h1 {
   font-size: 2.986rem;
   font-weight: 800; }
 
+.display-1 {
+  color: #ebe8db !important;
+  font-weight: 800;
+  line-height: .99 !important; }
+
 h2 {
   font-size: 2.488rem;
-  font-weight: 700; }
+  font-weight: 700;
+  color: #ebe8db; }
+
+#h2-profesion {
+  color: #106466; }
 
 h3 {
   font-size: 2.074rem;
   font-weight: 700; }
+
+.display-3 {
+  color: #661b4f;
+  font-weight: 600; }
+
+.display-3:hover {
+  color: #0bb0b3;
+  transition: 0.2s ease-in-out; }
 
 h4 {
   font-size: 1.728rem;
@@ -29,6 +46,14 @@ h5 {
 h6 {
   font-size: 1.2rem;
   font-weight: 600; }
+
+.borde {
+  border: 3px solid black;
+  border-radius: 3px; }
+
+.display-6 {
+  color: #ebe8db !important;
+  font-weight: 500; }
 
 .navbar {
   background-color: #ebe8db;
@@ -45,7 +70,7 @@ h6 {
   border-radius: 3px; }
 
 .card-body {
-  background-color: #665706;
+  background-color: #b39a14;
   height: 100%; }
 
 .card-email-img {
@@ -59,6 +84,9 @@ h6 {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 2rem; }
+  .btn-contact:hover {
+    background-color: #665706;
+    transition: 0.3s ease; }
 
 .card-paragraph {
   position: absolute;
@@ -80,8 +108,8 @@ h6 {
   border: 3px solid black; }
 
 #page5 {
-  height: 200px;
-  background-color: #0bb0b3; }
+  background-color: #ebe8db;
+  padding-right: 2rem; }
 
 .row {
   margin-left: 0.5rem; }
@@ -192,6 +220,22 @@ main {
         color: #665706;
         transition: ease-in 0.1s; }
 
+.footer-nav {
+  background-color: #fefefe;
+  color: #b39a14;
+  height: 100px;
+  margin-top: 5rem;
+  padding-top: 1rem; }
+  .footer-nav .col {
+    font-size: 20spx;
+    font-weight: 700; }
+    .footer-nav .col:hover {
+      color: #ebe8db;
+      transition: 0.4s ease-out; }
+
+#footer-ejzf {
+  fill: #b39a14 !important; }
+
 @media (max-width: 1200px) {
   .navbar-top-style-list {
     display: none; } }
@@ -201,3 +245,27 @@ main {
     display: none; }
   #navtop {
     display: inherit !important; } }
+
+#pro001 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#pro002 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#pro003 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#pro004 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat; }
