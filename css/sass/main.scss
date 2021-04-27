@@ -24,14 +24,35 @@ h1{
     font-weight: 800;
 }
 
+.display-1{
+  color: $color_body_p_claro !important;
+  font-weight: 800;
+  line-height: .99 !important;
+}
+
 h2{
     font-size: 2.488rem;
     font-weight: 700;
+    color: $color_body_p_claro;
+}
+
+#h2-profesion{
+  color: $color_guias ;
 }
 
 h3{
     font-size: 2.074rem;
     font-weight: 700;
+}
+
+.display-3{
+  color: $color_botons;
+  font-weight: 600;  
+}
+
+.display-3:hover{
+    color: #0bb0b3;
+    transition: 0.2s ease-in-out;
 }
 
 h4{
@@ -47,6 +68,16 @@ h5{
 h6{
     font-size: 1.2rem;
     font-weight: 600;
+}
+
+.borde{
+  border: 3px solid black;
+  border-radius: 3px;
+}
+
+.display-6{
+  color: $color_body_p_claro !important;
+  font-weight: 500;
 }
 
 .navbar {
@@ -69,7 +100,7 @@ h6{
 }
 
 .card-body{
-  background-color: $color_acento_dark ;
+  background-color: $color_acento ;
   height: 100%;
   // min-width: 400px;
 }
@@ -88,6 +119,11 @@ h6{
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 2rem;
+
+  &:hover{
+    background-color: $color_acento_dark;
+    transition: 0.3s ease;
+  }
 }
 
 
@@ -115,8 +151,9 @@ h6{
 }
 
 #page5{
-  height: 200px;
-  background-color: $color_background;
+  // height: 140px;
+  background-color: $color_body_p_claro ;
+  padding-right: 2rem;
 }
 
 
@@ -189,23 +226,18 @@ h6{
       color: $color_body_p;
   }
 
-  .wrapper{
+  .wrapper {
     width: 100%;
     display: flex;
     overflow-x: auto;
-    padding-bottom: 2rem;
-  }
-
-
-
-
-  .wrapper .item{
+    padding-bottom: 2rem; }
+  
+  .wrapper .item {
     min-width: 250px;
     height: 380px;
     line-height: 110px;
-    background-color: $color_body_p_claro;
-    margin-right: 28px;
-  }
+    background-color: #ebe8db;
+    margin-right: 28px; }
 
 
   .skill{
@@ -292,6 +324,27 @@ main{
 
 }
 
+.footer-nav{
+  background-color: #fefefe ;
+  color: $color_acento;
+  height: 100px;
+  margin-top: 5rem;
+  padding-top: 1rem;
+
+  .col{
+    font-size: 20spx;
+    font-weight: 700;
+    &:hover{
+      color: $color_body_p_claro ;
+      transition: 0.4s ease-out;
+    }
+  }
+}
+
+#footer-ejzf{
+  fill: $color_acento !important;
+}
+
 
 
 
@@ -310,6 +363,42 @@ main{
         display: inherit !important;
     }
   }
+
+
+  #pro001{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  
+  #pro002{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  
+  #pro003{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  
+  #pro004{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+
+
   
 
 
