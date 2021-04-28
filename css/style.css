@@ -64,6 +64,10 @@ h6 {
   height: 266px;
   width: 100%; }
 
+.containerpadding-proyecto {
+  height: 150px;
+  width: 100%; }
+
 .container-button {
   background-color: #661b4f;
   border: 3px solid black;
@@ -102,7 +106,6 @@ h6 {
   margin-top: 1rem;
   max-width: 80%;
   min-width: 400px;
-  height: 550px;
   background-color: #ebe8db;
   border-radius: 6px;
   border: 3px solid black; }
@@ -162,6 +165,8 @@ h6 {
 
 .wrapper .item {
   min-width: 250px;
+  box-sizing: border-box;
+  border: 2.1px solid black;
   height: 380px;
   line-height: 110px;
   background-color: #ebe8db;
@@ -184,6 +189,10 @@ h6 {
 
 #ejzf {
   fill: #661b4f !important; }
+
+.card-email .row {
+  box-sizing: border-box;
+  border: 2.1px solid black; }
 
 body {
   background-color: #0bb0b3 !important;
@@ -269,3 +278,31 @@ main {
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat; }
+
+.proyectpage {
+  background-color: #661b4f; }
+
+.proyect-img img {
+  width: 100%;
+  height: 100%; }
+
+.rollback {
+  position: relative;
+  top: 22%;
+  left: 2%;
+  width: 75px;
+  height: 75px;
+  padding: 5px; }
+
+.rollback-image {
+  width: 100%; }
+
+.proyect-text {
+  color: #ebe8db; }
+  .proyect-text span {
+    color: #ebe8db; }
+  .proyect-text p {
+    color: #ebe8db; }
+
+.progress-bar {
+  background-color: #0bb0b3 !important; }
