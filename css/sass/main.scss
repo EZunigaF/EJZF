@@ -365,11 +365,9 @@ main{
 
 
 
-@media (max-width: 1200px) { 
-  .navbar-top-style-list{
-    display: none;
-    } 
-  }
+.navbar-top-style-list{
+  display: none;
+  } 
   
   
   @media (min-width: 1200px) { 
@@ -377,7 +375,7 @@ main{
       display: none;
       
       }#navtop{
-        display: inherit !important;
+        display: inherit;
     }
   }
 
@@ -416,6 +414,9 @@ main{
 
   .proyectpage{
     background-color: $color_botons;
+    border-top: 10px solid $color_acento ;
+    border-bottom: 10px solid $color_acento ;
+    padding-top: 1rem;
   }
 
   .proyect-img{
@@ -451,6 +452,8 @@ main{
 
 
 .proyect-text{
+  
+  margin-top: 1rem;
   color: $color_body_p_claro;
 
   span{
@@ -463,7 +466,7 @@ main{
 }
 
 .progress-bar{
-  background-color: $color_background !important;
+  background-color: $color_background;
 }
 
 
